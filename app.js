@@ -2,6 +2,7 @@
 //Solution: use node.js to connect to teamtreehouse's API, get profile information to print out
 
 const https = require('https');
+// const username = "richardnadji";
 
 printMessage = (username, badgeCount, points) => {
   const message = `${username} has ${badgeCount} total badge(s) and ${points} points in javascript.`;
